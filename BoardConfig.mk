@@ -24,6 +24,13 @@ BOARD_SUPER_PARTITION_SIZE := 2084569088
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+## Recovery
+# Define the custom recovery UI static library
+TARGET_RECOVERY_UI_LIB := librecovery_ui_kvim3l
+
+# Ensure the module is built alongside recovery
+TARGET_RECOVERY_DEVICE_MODULES += librecovery_ui_kvim3l
+
 ## Wi-Fi
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
 BOARD_WLAN_DEVICE := bcmdhd
@@ -38,3 +45,7 @@ include device/amlogic/g12-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
 include vendor/khadas/kvim3l/BoardConfigVendor.mk
+
+## Kernel config fragments
+# Must come after the common include, which assigns TARGET_KERNEL_CONFIG with :=
+TARGET_KERNEL_CONFIG += khadas.config
