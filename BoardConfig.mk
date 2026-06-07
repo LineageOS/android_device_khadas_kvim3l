@@ -4,16 +4,16 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/radxa/radxa0
+DEVICE_PATH := device/khadas/kvim3l
 
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := radxa0
+TARGET_BOOTLOADER_BOARD_NAME := kvim3l
 
 ## DTB
-TARGET_DTB_NAME := g12a_s905y2_radxa0
+TARGET_DTB_NAME := kvim3l
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
