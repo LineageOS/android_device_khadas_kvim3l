@@ -3,10 +3,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifneq ($(filter radxa0 radxa0_car radxa0_tab,$(TARGET_DEVICE)),)
+ifneq ($(filter kvim3l kvim3l_car kvim3l_tab,$(TARGET_DEVICE)),)
 
-FACTORY_PATH := device/radxa/radxa0/factory
-VENDOR_PATH := vendor/radxa/radxa0
+FACTORY_PATH := device/khadas/kvim3l/factory
+VENDOR_PATH := vendor/khadas/kvim3l
+
 
 PRODUCT_INSTALL_OUT := $(PRODUCT_OUT)/aml_install
 PRODUCT_UPGRADE_OUT := $(PRODUCT_OUT)/aml_upgrade

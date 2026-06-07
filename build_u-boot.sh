@@ -9,7 +9,7 @@ set -e
 SCRIPT="$(readlink -f "${BASH_SOURCE[0]}")"
 DEVICE_DIR="$(dirname "$SCRIPT")"
 
-DEVICE="$(basename "$DEVICE_DIR")"                    # radxa0
+DEVICE="$(basename "$DEVICE_DIR")"                    # kvim3l
 TOP="$(cd "$DEVICE_DIR/../../.." && pwd)"             # srctree root
 
 BUILDER="$TOP/hardware/amlogic/u-boot_build/build_${DEVICE}.sh"
