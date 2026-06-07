@@ -10,8 +10,8 @@ from extract_utils.main import (
 )
 
 module = ExtractUtilsModule(
-    'radxa0',
-    'radxa',
+    'kvim3l',
+    'khadas',
     skip_main_proprietary_file=True,
 )
 
