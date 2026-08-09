@@ -43,3 +43,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
+
+## Kernel config fragments
+# Must come after the common include, which assigns TARGET_KERNEL_CONFIG with :=
+TARGET_KERNEL_CONFIG += khadas.config
