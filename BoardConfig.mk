@@ -43,9 +43,12 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
 
+<<<<<<< PATCH SET (a3039a37bd3affe37eafa6ec0f8850f23bf7165d kvim3l: Use khadas.config fragment)
+=======
 ## Include the proprietary BoardConfig makefile
 include vendor/khadas/kvim3l/BoardConfigVendor.mk
 
+>>>>>>> BASE      (7af2befbc8ff993c9e2151703fac61ef61b8f913 kvim3l: Add custom recovery ui, to use hw keys)
 ## Kernel config fragments
 # Must come after the common include, which assigns TARGET_KERNEL_CONFIG with :=
 TARGET_KERNEL_CONFIG += khadas.config
