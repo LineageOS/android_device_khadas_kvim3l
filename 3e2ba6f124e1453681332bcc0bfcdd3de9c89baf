@@ -16,6 +16,24 @@
       "message": "Does it make sense to have car and tab targets?",
       "revId": "3e2ba6f124e1453681332bcc0bfcdd3de9c89baf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "801949cb_895ee21c",
+        "filename": "build/tasks/factory.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 17162
+      },
+      "writtenOn": "2026-08-09T11:03:12Z",
+      "side": 1,
+      "message": "It is devboard and could  be used with touchscrenn. Also seen some users using it carpc. Have not tested these targets myself yet",
+      "parentUuid": "318974f8_eea67654",
+      "revId": "3e2ba6f124e1453681332bcc0bfcdd3de9c89baf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
