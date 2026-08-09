@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "318974f8_eea67654",
+        "filename": "build/tasks/factory.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-09T08:57:28Z",
+      "side": 1,
+      "message": "Does it make sense to have car and tab targets?",
+      "revId": "3e2ba6f124e1453681332bcc0bfcdd3de9c89baf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
