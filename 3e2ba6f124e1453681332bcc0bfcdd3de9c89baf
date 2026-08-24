@@ -34,6 +34,24 @@
       "parentUuid": "318974f8_eea67654",
       "revId": "3e2ba6f124e1453681332bcc0bfcdd3de9c89baf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdc1d85b_0516d9b7",
+        "filename": "build/tasks/factory.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-24T09:25:57Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "801949cb_895ee21c",
+      "revId": "3e2ba6f124e1453681332bcc0bfcdd3de9c89baf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
