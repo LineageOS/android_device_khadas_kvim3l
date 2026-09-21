@@ -16,6 +16,24 @@
       "message": "Rebase again against https://github.com/LineageOS/android_device_radxa_radxa0/tree/lineage-22.2. I have just merged https://review.lineageos.org/c/LineageOS/android_device_radxa_radxa0/+/504079, which simplifies this rebrand.",
       "revId": "a96b892faf438e7ce470066036445d18ebafcf93",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad19f99b_d27b5f00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-21T13:57:12Z",
+      "side": 1,
+      "message": "Leaving this comment unresolved.",
+      "parentUuid": "1eacf161_94056aba",
+      "revId": "a96b892faf438e7ce470066036445d18ebafcf93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
